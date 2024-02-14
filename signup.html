@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <main>
+        <h1>Sign Up</h1>
+        <div class="input-box">
+          <input
+            type="text"
+            placeholder="First Name"
+            required
+            id="firstName"
+          /><i class="bx bxs-user"></i>
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Last Name" required id="lastName" />
+          <i class="bx bxs-user"></i>
+        </div>
+        <div class="input-box">
+          <input type="email" placeholder="Email" required id="email" />
+          <i class="bx bxs-lock-alt"></i>
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Number" required id="number" />
+          <i class="bx bxs-lock-alt"></i>
+        </div>
+        <div class="input-box">
+          <input
+            type="password"
+            placeholder="Password"
+            required
+            id="password"
+          />
+          <i class="bx bxs-lock-alt"></i>
+        </div>
+        <div class="remember-forgot">
+          <button class="btn" onclick="signUp()">Sign In</button>
+        </div>
+        <div class="register-link">
+          <p>Already Account?<a href="./index.html">Sign In</a></p>
+        </div>
+      </main>
+    </div>
+  </body>
+  <script type="module" src="auth.js"></script>
+</html>

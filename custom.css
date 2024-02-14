@@ -1,0 +1,25 @@
+body {
+  background: url(./Image/img.jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.cus-nav {
+  background: #6b27b0;
+}
+.cus-btn {
+  background: #fff;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+}
+.cus-btn:hover {
+  background: #fff;
+  color: #333;
+  font-weight: 600;
+}
+.cus-image {
+  width: 289px;
+  height: 192px;
+  object-fit: contain;
+}
