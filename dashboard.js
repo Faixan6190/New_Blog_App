@@ -73,19 +73,9 @@ const renderBlog = async () => {
       );
     }
   }
-  // for (let value of blogArr) {
-  //   if (value.uid === uid) {
-  //     parent.innerHTML += renderCardUI(
-  //       value.title,
-  //       value.desc,
-  //       value.image,
-  //       value.blogId,
-  //       value.isPrivate
-  //     );
-  //   }
-  //   // console.log(value);
-  // }
 };
+
+
 window.addEventListener("load", renderBlog);
 
 const createBlog = async () => {
@@ -181,10 +171,10 @@ const imageUpload = (file) => {
         console.log("Upload is " + progress + "% done");
         switch (snapshot.state) {
           case "paused":
-            console.log("Upload is paused");
+            // console.log("Upload is paused");
             break;
           case "running":
-            console.log("Upload is running");
+            // console.log("Upload is running");
             break;
         }
       },
